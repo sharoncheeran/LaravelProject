@@ -1,0 +1,155 @@
+/*=============================================================================
+|      Editors:  Martyn Fitzgerald - 16025948
+|                Sharon Cheeran    - 17012330
+|                Sharmin J Rony    - 16025948
+|                Josh Boyce    	   - 16025948
+|
+|  Module Code:  UFCFV4-30-2
+| Module Title:  Data, Schemas & Applications
+|                
+|   Instructor:  Prakash Chatterjee / Glyn Watkins
+|     Due Date:  14/03/2019
+|
+|  Description:  Used media queryies to add breakpoints with the @media rule
+|				  to make the website responsive.
+|
+*===========================================================================*/
+ 
+/* 
+	Extra small devices (portrait phones, less than 576px) 
+*/
+@media (max-width: 575.98px)  { 
+	#descOverall{
+		top: 60px;
+	}
+	#mapCanvas {
+		min-height: 300px;
+	}
+	.descTitle{
+		margin-left: 20%;
+	}
+	.rssImg{
+		margin-left: 20%;
+	}
+	.w3-display-container {    
+		height: 200px;
+		margin-bottom: 45%;
+	}
+	.mappingRow
+	{
+		padding-bottom:0px;
+	}
+}
+/*  
+	Small devices (landscape phones, less than 768px) 
+*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+	#descOverall{
+		top: 60px;
+	}
+	.descTitle{
+		margin-left: 105px;
+	}
+	.rssImg{
+		margin-left: 45px;
+	}
+	.mappingRow
+	{
+		padding-bottom:0px;
+	}
+}
+/* 
+	Medium devices (tablets, less than 992px) 
+*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+	#descOverall{
+		top: 60px;
+	}
+	#mapCanvas {
+		min-height: 300px;
+	}
+	.descTitle{
+		margin-left: 190px;
+	}
+	.rssImg{
+		margin-left: 120px;
+	}
+	.w3-display-container {    
+		margin-bottom: 20%;
+	}
+	.mappingRow
+	{
+		padding-bottom:0px;
+	}
+}
+/* 
+	Large devices (desktops, less than 1200px) 
+*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	.rssImg{
+		margin-left: 15px;
+	}
+	.w3-display-container {    
+		height: 300px;
+	}
+}
+/* 
+	Large devices (desktops, less than 1200px) (Included in all the ones above) 
+*/
+@media (max-width: 1199.98px) {
+	h1{
+		font-size: 25px;
+	}
+	h2{
+		font-size: 22.5px;
+	}
+	h3{
+		font-size: 20px;
+	}
+	h4{
+		font-size: 17.5px;
+	}
+	h5{
+		font-size: 15px;
+	}
+	p{
+		font-size: 12.5px;
+	}
+	.rssImg{
+		width: 30px;
+		height: 30px;
+	}
+}
+/* 
+	XL Large devices (desktops, more than 1200px) 
+*/
+@media (min-width: 1200px) {
+	h1{
+		font-size: 27.5px;
+	}
+	h2{
+		font-size: 22.5px;
+	}
+	h3{
+		font-size: 20px;
+	}
+	h4{
+		font-size: 17.5px;
+	}
+	h5{
+		font-size: 15px;
+	}
+	p{
+		font-size: 12.5px;
+	}
+	.rssImg{
+		margin-left: -15px;
+	}
+	.w3-display-container {    
+		height: 370px;
+	}
+	.hideHR
+	{
+		display: none;
+	}
+}
